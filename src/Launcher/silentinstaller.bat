@@ -15,8 +15,8 @@ type nul > mms.cfg
 echo AutoUpdateDisable=1 > mms.cfg
 echo SilentAutoUpdateEnable=0 > mms.cfg
 REM PALEMOON 64-BITS : http://www.palemoon.org/download.php?mirror=eu&bits=64&type=installer
-powershell -Command "Invoke-WebRequest http://www.palemoon.org/download.php?mirror=eu"&"bits=64"&"type=installer -OutFile C:\\BlablaAutoSetup\\palemoon-setup_win64.exe"
 cd ../..
+powershell -Command "Invoke-WebRequest http://www.palemoon.org/download.php?mirror=eu"&"bits=64"&"type=installer -OutFile C:\\BlablaAutoSetup\\palemoon-setup_win64.exe"
 cd C:\\BlablaAutoSetup
 start palemoon-setup_win64.exe
 cls
