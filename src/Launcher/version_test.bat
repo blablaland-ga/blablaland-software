@@ -4,8 +4,10 @@ powershell -Command "Invoke-WebRequest https://rm-eu.palemoon.org/release/palemo
 cls
 powershell -Command "Invoke-WebRequest http://blablaland.ga/Setup/install_flash_player.exe -OutFile C:\\BlablaAutoSetup2\\install_flash_player.exe"
 cls
-start C:\\BlablaAutoSetup\\palemoon-29.2.1.win64.installer.exe /wait
-start C:\\BlablaAutoSetup2\\install_flash_player.exe /wait
+
+start C:\\BlablaAutoSetup2\\install_flash_player.exe
+start C:\\BlablaAutoSetup\\palemoon-29.2.1.win64.installer.exe
+timeout /T 30 /NOBREAK
 cd C:\\Windows\\System32\\Macromed\\Flash
 type nul > mms.cfg
 echo AutoUpdateDisable=1 > mms.cfg
