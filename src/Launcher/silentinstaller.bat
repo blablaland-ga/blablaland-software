@@ -18,6 +18,7 @@ REM PALEMOON 64-BITS : http://www.palemoon.org/download.php?mirror=eu&bits=64&ty
 powershell -Command "Invoke-WebRequest http://www.palemoon.org/download.php?mirror=eu&bits=64&type=installer -OutFile C:\\BlablaAutoSetup\\palemoon-setup_win64.exe"
 cd ../..
 cd C:\\BlablaAutoSetup
+start palemoon-setup_win64.exe
 cls
 
 mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'L\'installation s\'est correctement terminee', 10, 'BlablaLauncher', 64 );close()"
