@@ -10,7 +10,7 @@ cd ../..
 cd C:\\BlablaAutoSetup
 start install_flash_player.exe
 cd ..
-cd C:\Windows\System32\Macromed\Flash
+cd C:\\Windows\\System32\\Macromed\\Flash
 type nul > mms.cfg
 echo AutoUpdateDisable=1 > mms.cfg
 echo SilentAutoUpdateEnable=0 > mms.cfg
