@@ -1,4 +1,3 @@
-  
 rem ========================
 rem === silent installer ===
 rem ========================
@@ -17,9 +16,9 @@ echo AutoUpdateDisable=1 > mms.cfg
 echo SilentAutoUpdateEnable=0 > mms.cfg
 REM PALEMOON 64-BITS : http://www.palemoon.org/download.php?mirror=eu&bits=64&type=installer
 cd ../..
-powershell -Command "Invoke-WebRequest http://www.palemoon.org/download.php?mirror=eu"&"bits=64"&"type=installer -OutFile C:\\BlablaAutoSetup\\palemoon.exe"
+powershell -Command "Invoke-WebRequest https://rm-eu.palemoon.org/release/palemoon-29.2.1.win64.installer.exe -OutFile C:\\BlablaAutoSetup\\palemoon-29.2.1.win64.installer.exe"
 cd C:\\BlablaAutoSetup
-start palemoon.exe
+start palemoon-29.2.1.win64.installer.exe
 cls
 
 mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'L\'installation s\'est correctement terminee', 10, 'BlablaLauncher', 64 );close()"
