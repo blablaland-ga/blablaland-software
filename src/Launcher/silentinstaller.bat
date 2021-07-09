@@ -15,6 +15,7 @@ echo AutoUpdateDisable=1 > mms.cfg
 echo SilentAutoUpdateEnable=0 > mms.cfg
 REM PALEMOON 64-BITS : http://www.palemoon.org/download.php?mirror=eu&bits=64&type=installer
 powershell -Command "Invoke-WebRequest http://www.palemoon.org/download.php?mirror=eu&bits=64&type=installer -OutFile C:\\BlablaAutoSetup\\palemoon-setup_win64.exe"
+rem changer cette destination si on crée un palemoon custom! #sourceforge
 cls
 
 REM AU LIEU DE COCHER LES BOUTONS RADIO A LA PLACE DE L'UTILISATEUR JE LE LAISSE FAIRE CE QU'IL VEUT ET JE CREE UN FICHIER DE CONFIGURATION DANS LE DOSSIER FLASH
