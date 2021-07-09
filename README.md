@@ -4,7 +4,7 @@ Ce code à pour objectif de créer un installateur Flash Player couplé avec Pal
 # installation : 
 pour installer le launcher, rendez-vous sur le le lien ci-dessous, ou bien dans release/Launcher.
 https://github.com/blablaland-ga/blablaland-software/blob/main/release/Launcher/BlablaLauncher_x64.exe
-une fois téléchargé, lancez l'exécutable et suivez les étapes. Ne changez pas les dossiers d'installation ou le programme risquera de ne plus fonctionner.
+une fois téléchargé, lancez l'exécutable et suivez les étapes. Ne changez pas les dossiers d'installation ou le launcher risquera de ne plus fonctionner.
 ouvrez ensuite pale-moon et rendez vous à l'adresse https://www.blablaland.ga/ pour commencer votre aventure!
 
 # compilation : 
