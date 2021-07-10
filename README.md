@@ -7,6 +7,9 @@ https://github.com/blablaland-ga/blablaland-software/blob/main/release/Launcher/
 une fois téléchargé, lancez l'exécutable et suivez les étapes. Ne changez pas les dossiers d'installation ou le launcher risquera de ne plus fonctionner.
 ouvrez ensuite pale-moon et rendez vous à l'adresse https://www.blablaland.ga/ pour commencer votre aventure!
 
+attention! Si vous utilisez notre version exécutable, le programme risque d'être bloqué car soupçonné d'être malicieux
+Vous pouvez l'utiliser quand même, ou bien téléchager le .bat si vous ne vous sentez pas en confiance.
+
 # compilation : 
 
 à venir...
