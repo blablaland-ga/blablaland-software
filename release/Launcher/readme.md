@@ -6,5 +6,5 @@ Si vous ne vous sentez pas en confiance, pas de panique, nous avons mis à votre
 
 ATTENTION:
 
-Si vous décidez d'utiliser notre version non exécutable(BlablaLand.bat), veuillez s'il vous plaît faire un clic droit;exécuter en tant qu'administrateur;
+Si vous décidez d'utiliser notre version non exécutable(BlablaLand.bat), veuillez s'il vous plaît faire un clic droit->exécuter en tant qu'administrateur
 En effet, le Launcher doit disposer des privilèges administrateur pour créer les fichiers nécessaires à l'utilisation du jeu
