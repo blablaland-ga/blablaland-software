@@ -8,13 +8,13 @@ Veuillez vous rendre à cette page : https://github.com/blablaland-ga/blablaland
 une fois téléchargé, lancez le Launcher et suivez les étapes. Ne changez pas les dossiers d'installation ou le launcher risquera de ne plus fonctionner.
 ouvrez ensuite pale-moon et rendez vous à l'adresse https://www.blablaland.ga/ pour commencer votre aventure!
 
-#désinstallation : 
+# désinstallation : 
 Pour désinstaller pale-moon, rendez vous dans Panneau de configuration->Programmes->Programmes et fonctionnalités->faites un clic droit sur pale-moon->désinstaller->puis suivez les étapes
 Pour désinstaller flash, rendez vous dans C:\Windows\System32, puis supprimez le dossier "macromed"
 Pour désinstaller les derniers fichiers du launcher, rendez vous dans C:\ puis supprimez le dossier "BlablaLand
 
 
-#conversion :
+# conversion :
 pour convertir BlablaLauncher.bat en BlablaLauncher.exe, veuillez utiliser le logiciel Bat to Exe Converter, avec les options :
 -UAC : request administrator privileges
 --logo : optionnel (un logo est mis à votre disposition à cette adresse : https://github.com/blablaland-ga/blablaland-software/blob/main/src/ressources/blablalogo.ico )
